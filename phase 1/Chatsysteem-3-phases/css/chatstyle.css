@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.block{
+	width: 90%;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+header, content, footer{
+	width: 100%;
+	display: block;
+	position: relative;
+}
+header{
+	width: calc(100% - 10px);
+	background: #ee5253;
+	color: white;
+	padding: 5px;
+}
+content{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}
+.chatbox{
+	overflow-y: auto;
+	height: 500px;
+	background: #e3e3e3;
+	margin-top: 20px; 
+}
+.chatbox__ul{
+	widows: calc(100% - 20px);
+	margin: 5px 20px 0;
+	list-style: none;
+}
+.chatbox__li{
+	display: block;
+	width: 100%;
+	padding: 5px 5px 0; 
+}
+.chatbox__Them{
+
+}
+.chatbox__Me{
+	background: #d6d6d6; 
+}
+/* ------{chatform}------ */
+.chatform{
+	margin-top: 5px;
+}
+.chatform input[type="text"]{
+	width: 400px;
+	height: 50px;
+}
+.chatform input[type="submit"]{
+	width: calc(80px + 4px);
+	height: calc(50px + 4px);
+}
+/* ------{loginform}------ */
+.loginform{
+	display: table;
+	margin: 30% auto 0;
+	width: 500px;
+	background: #e3e3e3;
+	border-radius: 15px;
+}
+.loginform__Sign{
+	background: #ee5253;
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	text-align: center;
+	padding: 10px 0;
+	color: white;
+}
+.loginform__div{
+	margin: 8px 0;
+}
+.loginform form{
+	display: table;
+	margin: 0 auto;
+}
+.loginform input[type="text"]{
+	width: 300px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	font-size: 15px;
+	padding-bottom: 5px; 
+}
+.loginform input[type="text"]:focus{
+	outline: none;
+}
+.loginform input[type="submit"]{
+	border: none;
+	border-radius: 50px;
+	background: #10ac84;
+	padding: 5px 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px 0;
+}
+.loginform input[type="submit"]:hover{
+	background: #0c8a6a; 
+}
