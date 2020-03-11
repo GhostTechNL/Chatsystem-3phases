@@ -31,7 +31,7 @@ content{
 	margin-top: 20px; 
 }
 .chatbox__ul{
-	widows: calc(100% - 20px);
+	width: calc(100% - 45px);
 	margin: 5px 20px 0;
 	list-style: none;
 }

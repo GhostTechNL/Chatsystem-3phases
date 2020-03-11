@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>socket io</title>
+	<link rel="stylesheet" type="text/css" href="css/chatstyle.css">
+	<meta charset="utf-8">
+</head>
+<body>
+    <header>
+		<h2>Chatsystem 3 phases </h2>
+		<nav>
+		</nav>
+	</header>
+	<div class="block">
+		<content>
+			<div class="chatbox">
+				<ul id="messages" class="chatbox__ul">
+				 	<li class="chatbox__li chatbox__Me">
+						<h3>my name</h3>
+					    <p>them</p>
+				    </li>
+					<li class="chatbox__li chatbox__Them">
+						<h3>there name</h3>
+						<p id="ch" >them</p>
+					</li>
+				</ul>
+			</div>
+			<div class="chatform">
+				<form  action="" autocomplete="off">
+					<input class="chatform__input" type="text" id="m">
+					<input type="submit" value="Send">
+				</form>
+			</div>
+		</content>
+		<footer>
+			<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+			<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<script type="text/javascript" src="js/chatsystem.js"></script>
+		</footer>
+	</div>
+</body>
+</html>
